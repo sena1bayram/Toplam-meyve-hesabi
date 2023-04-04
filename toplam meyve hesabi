@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+      float toplam,armutKilo=2.14f, elmaKilo=3.67f, domatesKilo=1.11f, muzKilo=0.95f, patlıcanKilo=5.00f;
+      int armut,elma,domates,muz,patlıcan;
+        System.out.print("Armut kaç kilo? ");
+        armut=input.nextInt();
+        System.out.print("Elma kaç kilo? ");
+        elma=input.nextInt();
+        System.out.print("Domates kaç kilo? ");
+        domates=input.nextInt();
+        System.out.print("Muz kaç kilo? ");
+        muz=input.nextInt();
+        System.out.print("Patlıcankaç kilo? ");
+        patlıcan=input.nextInt();
+        toplam=(armut*armutKilo)+(elma*elmaKilo)+(domates*domatesKilo)+(muz*muzKilo)+(patlıcan*patlıcanKilo);
+        System.out.print("Toplam Tutar: "+toplam);
+
+    }
+}
